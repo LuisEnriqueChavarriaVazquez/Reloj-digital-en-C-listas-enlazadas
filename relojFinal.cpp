@@ -22,14 +22,12 @@ void reloj(HORAS *&lista_h, MINUTOS *&lista_m, SEGUNDOS *&lista_s, int h, int m,
 void imprimirElementos(HORAS *&lista_h, MINUTOS *&lista_m, SEGUNDOS *&lista_s);
 
 int main(){
-	while(1){
 		int h,m,s;
 		h=0; m=0; s=0;
 		HORAS *lista_h = NULL;
 		MINUTOS *lista_m = NULL;
 		SEGUNDOS *lista_s = NULL;
 	    reloj(lista_h,lista_m,lista_s,h,m,s);
-	}
 	return 0;
 }
 
